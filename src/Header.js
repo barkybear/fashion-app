@@ -9,8 +9,8 @@ const Header = () =>
     <img className="header-logo" src={logo} alt="de bijenkorf logo" />
     <NavBar />
     <div className="header-title">
-      <div className="header-title-1">Make It</div>
-      <div className="header-title-2">You</div>
+      <div className="header-title-top">Make It</div>
+      <div className="header-title-bottom">You</div>
     </div>
     <img className="header-icon" src={expand} alt="expand to see more" />
   </div>;

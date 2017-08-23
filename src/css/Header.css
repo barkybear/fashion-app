@@ -13,14 +13,6 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('../images/woman.png'), url('../images/man.png');
-    background-repeat: no-repeat, no-repeat;
     background-position: 200% 100%, 0% 60%;
     background-size: auto 120%, auto 120%;
   }
@@ -28,44 +20,13 @@
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('../images/woman.png'), url('../images/man.png');
-    background-repeat: no-repeat, no-repeat;
     background-position: 0% 100%, 100% 40%;
     background-size: auto 120%, auto 120%;
   }
 }
 
-/*@media only screen and (min-width: 737px) and (max-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('../images/woman.png'), url('../images/man.png');
-    background-repeat: no-repeat, no-repeat;
-    background-position: 650% 100%, -20% 40%;
-    background-size: auto 120%, auto 120%;
-  }
-}*/
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('../images/woman.png'), url('../images/man.png');
-    background-repeat: no-repeat, no-repeat;
     background-position: -30% 100%, 180% 50%;
     background-size: auto 120%, auto 120%;
   }
@@ -81,26 +42,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 0.7;
+  text-transform: uppercase;
+  color: black;
 }
 
-.header-title-1 {
-  font-family: 'Proxima Nova';
-  opacity: 0.7;
+.header-title-top {
   letter-spacing: 0.3em;
   line-height: 1.6em;
   font-size: 2.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
 }
 
-.header-title-2 {
+.header-title-bottom {
   font-family: 'VelinoDisplay';
   font-size: 8em;
-  opacity: 0.7;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
 }
 
 .header-icon {
