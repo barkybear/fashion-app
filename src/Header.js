@@ -5,7 +5,7 @@ import expand from './images/expand_more_icon.svg';
 import './css/Header.css';
 
 const Header = () =>
-  <div className="container">
+  <div className="header-container">
     <img className="header-logo" src={logo} alt="de bijenkorf logo" />
     <NavBar />
     <div className="header-title">
