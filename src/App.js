@@ -15,14 +15,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header onClick={this.handleClick} />
-        <Section
-          ref={section => {
-            this.chooseYourStyle = section;
-          }}
-        >
-          Kies je stijl
-        </Section>
+        <main>
+          <Header onClick={this.handleClick} />
+          <Section
+            ref={section => {
+              this.chooseYourStyle = section;
+            }}
+          >
+            Kies je stijl
+          </Section>
+        </main>
       </div>
     );
   }
