@@ -4,7 +4,7 @@ import logo from './images/logo-bijenkorf.svg';
 import expand from './images/expand_more_icon.svg';
 import './css/Header.css';
 
-const Header = () =>
+const Header = ({ onClick }) =>
   <div className="header-container">
     <img className="header-logo" src={logo} alt="de bijenkorf logo" />
     <NavBar />
@@ -12,7 +12,9 @@ const Header = () =>
       <div className="header-title-top">Make It</div>
       <div className="header-title-bottom">You</div>
     </div>
-    <img className="header-icon" src={expand} alt="expand to see more" />
+    <button onClick={onClick}>
+      <img className="header-icon" src={expand} alt="expand to see more" />
+    </button>
   </div>;
 
 export default Header;

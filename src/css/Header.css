@@ -13,6 +13,16 @@
   padding: 10px;
 }
 
+.header-container button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-container button:focus {
+  outline: 0;
+}
+
 .header-title {
   flex: 3;
   display: flex;
@@ -37,4 +47,21 @@
 
 .header-icon {
   height: 48px;
+  position: relative;
+}
+
+.header-icon:hover {
+  animation: pull 2s infinite reverse ease-in-out;
+}
+
+@keyframes pull {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
